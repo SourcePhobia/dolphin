@@ -1,1 +1,4 @@
-dolphin serverside\nupdatelog v0.1\n\n -startup
+dolphin serverside
+updatelog v0.1
+
+-startup
