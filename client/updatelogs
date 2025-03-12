@@ -1,0 +1,8 @@
+dolphin serverside
+updatelog v1.0
+
+-startup
+-added respawn button
+-added r6 button
+-improved server script security
+-added anti remote delete
