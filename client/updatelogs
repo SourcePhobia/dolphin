@@ -4,8 +4,8 @@ updatelog v1.0
 server:
 
 -improved server script security
--added anti remote delete
--using different execution method
+-anti remote delete
+-different execution method
 -server ban unauthorized remote access
 -experimental anti webhook spam
 -experimental anti dump
@@ -13,5 +13,5 @@ server:
 
 client:
 
--added respawn button
--added r6 button
+-respawn button
+-r6 button
