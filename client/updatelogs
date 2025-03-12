@@ -9,6 +9,7 @@ server:
 -server ban unauthorized remote access
 -experimental anti webhook spam
 -experimental anti dump
+-experimental
 
 
 client:
