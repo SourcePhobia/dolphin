@@ -8,6 +8,7 @@ server:
 -using different execution method
 -server ban unauthorized remote access
 -experimental anti webhook spam
+-experimental anti dump
 
 
 client:
