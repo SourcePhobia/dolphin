@@ -1,8 +1,16 @@
 dolphin serverside
 updatelog v1.0
 
--startup
--added respawn button
--added r6 button
+server:
+
 -improved server script security
 -added anti remote delete
+-using different execution method
+-server ban unauthorized remote access
+-experimental anti webhook spam
+
+
+client:
+
+-added respawn button
+-added r6 button
