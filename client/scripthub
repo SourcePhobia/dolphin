@@ -1,13 +1,13 @@
 return {
     {
         name = "Baldis Basic",
-        image = "17338906539",
+        image = "rbxassetid://17338906539",
         script = "require(6058180303).school()",
         description = "Turns the whole map into Baldis Basic"
     },
     {
         name = "Baldis Basic",
-        image = "17338906539",
+        image = "rbxassetid://17338906539",
         script = "require(6058180303).school()",
         description = "Turns the whole map into Baldis Basic"
     }
