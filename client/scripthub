@@ -1,13 +1,13 @@
 return {
     {
         name = "Baldis Basic",
-        image = "https://preview.redd.it/serverside-scripts-v0-ktzrfc3rtsxa1.png?width=922&format=png&auto=webp&s=666048d752fd5d007ce44dd0bbed63e618356c21",
+        image = "17338906539",
         script = "require(6058180303).school()",
         description = "Turns the whole map into Baldis Basic"
     },
     {
         name = "Baldis Basic",
-        image = "https://preview.redd.it/serverside-scripts-v0-ktzrfc3rtsxa1.png?width=922&format=png&auto=webp&s=666048d752fd5d007ce44dd0bbed63e618356c21",
+        image = "17338906539",
         script = "require(6058180303).school()",
         description = "Turns the whole map into Baldis Basic"
     }
