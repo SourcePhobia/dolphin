@@ -1,3 +1,4 @@
+local remotename = getgenv().remotename
 
 local dolphinllllllllIl = Instance.new("ScreenGui")
 local executor = Instance.new("Frame")
@@ -75,7 +76,7 @@ exec.TextScaled = true
 exec.TextSize = 14.000
 exec.TextWrapped = true
 exec.MouseButton1Click:Connect(function()
-	game.ReplicatedStorage:FindFirstChild(getgenv().remotename):FireServer(tostring(scriptbox.Text))
+	game.ReplicatedStorage:FindFirstChild(remotename):FireServer(tostring(scriptbox.Text))
 end)
 
 UITextSizeConstraint_2.Parent = exec
