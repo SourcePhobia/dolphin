@@ -56,15 +56,13 @@ require(6058180303).school("Player1")
 
 ---
 
-## 🛠️ Server Replacement Table Example
+### ♻️ `dolphinApi:respawnChar()`
+- **Returns:** `void` – Respawns the player’s character.  
+- **Server Action:** Calls `player:LoadCharacter()`
 
-This is how the server interprets the functions:
+---
 
-```
-local replacements = {
-    ["dolphinApi:getUsername%(%)*"] = string.format("%q", player.Name),
-    ["dolphinApi:getUserId%(%)*"] = tostring(player.UserId),
-    ["dolphinApi:getDisplayName%(%)*"] = string.format("%q", player.DisplayName),
-    ["dolphinApi:getTeam%(%)*"] = string.format("%q", player.Team and player.Team.Name or "None"),
-}
-```
+### 🧍 `dolphinApi:loadR6()`
+- **Returns:** `void` – Loads the specified R6 rig using the server-configured module.  
+- **Server Action:** Calls `require(r6require).load(player.Name)`
+
