@@ -1,18 +1,9 @@
 dolphin serverside
-updatelog v1.0
+updatelog v1.01
 
 server:
-
--improved server script security
--anti remote delete
--different execution method
--server ban unauthorized remote access
--experimental anti webhook spam
--experimental anti dump
--experimental
-
+-no noticeable update
 
 client:
 
--respawn button
--r6 button
+-easier access to remote name
