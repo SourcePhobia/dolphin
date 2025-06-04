@@ -13,9 +13,9 @@ All functions should be called using the colon syntax (e.g. `dolphinApi:getUsern
 ---
 
 ## 📘 Usage Example
-
+```lua
 require(6058180303).school(dolphinApi:getUsername())
-
+```
 
 If the player's name is `Player1`, the server will interpret and run:
 
