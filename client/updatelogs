@@ -2,8 +2,10 @@ dolphin serverside
 updatelog v1.01
 
 server:
--no noticeable update
+-server dolphin api support
 
 client:
 
 -easier access to remote name
+-client dolphin api support
+-scripthub
