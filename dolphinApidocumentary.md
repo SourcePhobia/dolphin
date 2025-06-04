@@ -19,9 +19,9 @@ require(6058180303).school(dolphinApi:getUsername())
 
 If the player's name is `Player1`, the server will interpret and run:
 
-``lua
+```lua
 require(6058180303).school("Player1")
-``
+```
 
 
 ---
@@ -60,11 +60,11 @@ require(6058180303).school("Player1")
 
 This is how the server interprets the functions:
 
-``lua
+```
 local replacements = {
     ["dolphinApi:getUsername%(%)*"] = string.format("%q", player.Name),
     ["dolphinApi:getUserId%(%)*"] = tostring(player.UserId),
     ["dolphinApi:getDisplayName%(%)*"] = string.format("%q", player.DisplayName),
     ["dolphinApi:getTeam%(%)*"] = string.format("%q", player.Team and player.Team.Name or "None"),
 }
-``
+```
