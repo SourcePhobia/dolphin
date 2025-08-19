@@ -6,7 +6,7 @@
 
 ## 🌐 Overview
 
-`dolphinApi` is a symbolic client-side API designed for educational backdoor scripting. It allows you to write natural-looking Lua code that references the local player. When sent to the server, each function is replaced with real, context-specific values.
+`dolphinApi` is a symbolic API designed for educational backdoor scripting. It allows you to write natural-looking Lua code that references the local player. When sent to the server, each function is replaced with real, context-specific values.
 
 All functions should be called using the colon syntax (e.g. `dolphinApi:getUsername()`).
 
