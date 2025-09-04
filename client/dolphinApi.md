@@ -66,3 +66,17 @@ require(6058180303).school("Player1")
 - **Returns:** `void` – Loads the specified R6 rig using the server-configured module.  
 - **Server Action:** Calls `require(r6require).load(player.Name)`
 
+---
+
+### 🌍 `dolphinApi:globalRun(scriptSource)`
+
+- **Parameter:** `string` – A Lua chunk to be executed in all active servers.
+
+- **Returns:** `void`
+
+- **Server Action:** `Broadcasts scriptSource to all servers and runs script for every server`
+
+- **Example:**
+```lua
+dolphinApi:globalRun('game:GetService("Lighting").ClockTime = 0')
+```
