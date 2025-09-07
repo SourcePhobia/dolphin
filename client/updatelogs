@@ -1,8 +1,9 @@
 dolphin serverside
-updatelog v1.01
+updatelog v1.02
 
 server:
 -server dolphin api support
+-global scripts
 
 client:
 
