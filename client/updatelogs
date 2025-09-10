@@ -4,6 +4,8 @@ updatelog v1.02
 server:
 -server dolphin api support
 -global scripts
+-aes encryption on all dynamic variables
+-hidden client actions to remote from all external server scripts.
 
 client:
 
