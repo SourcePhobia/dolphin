@@ -76,7 +76,7 @@ exec.TextScaled = true
 exec.TextSize = 14.000
 exec.TextWrapped = true
 exec.MouseButton1Click:Connect(function()
-	game.ReplicatedStorage:FindFirstChild(remotename):FireServer(tostring(scriptbox.Text))
+	game.ReplicatedStorage:FindFirstChild(remotename):InvokeServer(tostring(scriptbox.Text))
 end)
 
 UITextSizeConstraint_2.Parent = exec
@@ -96,7 +96,7 @@ rsix.TextScaled = true
 rsix.TextSize = 14.000
 rsix.TextWrapped = true
 rsix.MouseButton1Click:Connect(function()
-	game.ReplicatedStorage:FindFirstChild(remotename):FireServer("dolphinApi:loadR6()")
+	game.ReplicatedStorage:FindFirstChild(remotename):InvokeServer("dolphinApi:loadR6()")
 end)
 
 UITextSizeConstraint_3.Parent = rsix
@@ -116,7 +116,7 @@ re.TextScaled = true
 re.TextSize = 14.000
 re.TextWrapped = true
 	re.MouseButton1Click:Connect(function()
-		game.ReplicatedStorage:FindFirstChild(remotename):FireServer("dolphinApi:respawnChar()")
+		game.ReplicatedStorage:FindFirstChild(remotename):InvokeServer("dolphinApi:respawnChar()")
 	end)
 
 
