@@ -78,5 +78,5 @@ require(6058180303).school("Player1")
 
 - **Example:**
 ```lua
-dolphinApi:globalRun('game:GetService("Lighting").ClockTime = 0')
+dolphinApi:globalRun(game:GetService("Lighting").ClockTime = 0)
 ```
